@@ -39,7 +39,8 @@ header {
     margin-top: 1rem;
     padding: .5rem;
     border: none;
-    background: white;
+    background: #ffffff;
+    color: blue;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -60,12 +61,6 @@ header {
 
 #navMenu li {
     margin: 1rem 0;
-}
-
-#navMenu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .active {
@@ -144,14 +139,6 @@ h1 {
 }
 
 .buttons button {
-    padding: .5rem 1rem;
-    border: none;
-    background: var(--accent-color);
-    color: white;
-    cursor: pointer;
-}
-
-.buttons button {
     padding: .6rem 1.2rem;
     border: none;
     background: var(--accent-color);
@@ -180,13 +167,6 @@ h1 {
     display: grid;
     gap: 1rem;
     padding: 1rem;
-}
-
-.course-card {
-    padding: 1rem;
-    border-radius: 5px;
-    background: #eee;
-    text-align: center;
 }
 
 .course-card {
