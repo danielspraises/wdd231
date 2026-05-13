@@ -1,0 +1,234 @@
+:root {
+    --primary-color: #005994;
+    --secondary-color: #044b74;
+    --accent-color: #0b6bd9;
+    --light-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+/* HEADER */
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+}
+
+#menuButton {
+    margin-top: 1rem;
+    padding: .5rem;
+    border: none;
+    background: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+#navMenu {
+    display: none;
+}
+
+#navMenu.open {
+    display: block;
+}
+
+#navMenu ul {
+    list-style: none;
+}
+
+#navMenu li {
+    margin: 1rem 0;
+}
+
+#navMenu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active {
+    color: yellow;
+}
+
+#navMenu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.3s ease;
+}
+
+#navMenu a:hover {
+    background-color: white;
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+/* MAIN */
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.card h2 {
+    background: var(--primary-color);
+    color: white;
+    padding: .75rem;
+    text-align: center;
+}
+
+
+
+
+.about-me {
+    padding: 1rem;
+}
+
+.student-photo img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+/* COURSE BUTTONS */
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.buttons button {
+    padding: .5rem 1rem;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button {
+    padding: .6rem 1.2rem;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* COURSE CARDS */
+.course-wrapper {
+    margin-top: 20rem;
+    padding: 50px;
+}
+
+
+#courses {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border-radius: 5px;
+    background: #eee;
+    text-align: center;
+}
+
+.course-card {
+    padding: 1rem;
+    border-radius: 5px;
+    background: #eee;
+    text-align: center;
+    transition: transform 0.3s ease,
+                background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+.course-card:hover {
+    transform: scale(1.03);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.completed {
+    background: #005994;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+footer nav img {
+    width: 30px;
+    height: auto;
+}
+

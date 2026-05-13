@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 – Web Frontend Development 1 – Eden PraiseGod Daniel</title>
+
+    <meta name="description" content="Homepage for WDD231 course by Eden PraiseGod Daniel">
+    <meta name="author" content="Eden PraiseGod Daniel">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-title">
+        <img src="images/logo.png" alt="Site Logo" class="logo">
+        <span>WDD 231 – Web Frontend Development</span>
+    </div>
+
+    <!-- Hamburger Button -->
+    <button id="menuButton">&#9776;</button>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <h1>Home</h1>
+
+    <div class="divider">
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-me">
+                <p>
+                    My name is Eden PraiseGod Daniel, and I am a passionate and dedicated student with a strong interest in technology, web development, and continuous learning. I enjoy building creative projects, improving my skills, and exploring new ideas that help me grow both academically and personally. I am committed to excellence, teamwork, and making a positive impact through innovation and hard work. 
+                </p>
+            </div>
+        </section>
+
+        <section class="card student-photo">
+            <h2>Student Photo</h2>
+
+            <img src="images/pic.jpg" alt="Eden PraiseGod Daniel">
+        </section>
+
+    </div>
+
+    <section class="card">
+        <div class="courses-wrapper">
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="buttons">
+                <button id="allBtn">All</button>
+                <button id="wddBtn">WDD</button>
+                <button id="cseBtn">CSE</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p id="totalCredits"></p>
+        
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="https://github.com/danielspraises" target="_blank">
+                    <img src="images/github.png" alt="GitHub">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/daniels-eden-737b46372" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        Eden PraiseGod Daniel • Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
