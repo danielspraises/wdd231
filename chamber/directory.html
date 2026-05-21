@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Lagos Chamber of Commerce Directory Page">
+    <meta name="author" content="Eden PraiseGod Daniel">
+
+    <!-- Facebook / Open Graph -->
+    <meta property="og:title" content="Lagos Chamber Directory">
+    <meta property="og:description" content="Business directory for the Lagos Chamber of Commerce">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://danielspraises.github.io/chamber/directory.html">
+
+    <title>Lagos Chamber Directory</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="logo-area">
+            <img src="images/logo.png" alt="Lagos Chamber Logo">
+            <span class="bus-name">Lagos Chamber of Commerce</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+
+            <button id="menuBtn">&#9776;</button>
+
+            <ul class="navigation">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#" class="active">Directory</a></li>
+
+                <li><a href="#">Join</a></li>
+
+                <li><a href="#">Discover</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <h1>Business Directory</h1>
+
+        <!-- View Toggle Buttons -->
+        <div class="view-buttons">
+
+            <button id="gridBtn">⊞ Grid</button>
+
+            <button id="listBtn">☰ List</button>
+
+        </div>
+
+        <!-- Dynamic Member Area -->
+        <section id="members" class="grid"></section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-info">
+
+            <p>Lagos Chamber of Commerce</p>
+
+            <p>10 Broad Street, Lagos</p>
+
+            <p>info@lagoschamber.org</p>
+
+            <p>+234 800 111 2222</p>
+
+        </div>
+
+        <div class="footer-dev">
+
+            <p>
+                &copy;
+                <span id="year"></span>
+
+                Eden PraiseGod Daniel | WDD 231
+            </p>
+
+            <p id="lastModified"></p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

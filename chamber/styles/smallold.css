@@ -1,0 +1,163 @@
+/* ---------- GLOBAL ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: open sans, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #003049;
+    color: white;
+    padding: 1rem;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-area img {
+    width: 60px;
+    border-radius: 50px;
+}
+
+.logo-area .bus-name {
+    font-size: 1.2 rem;
+    font-weight: bold;
+}
+/* ---------- NAVIGATION ---------- */
+
+#menuBtn {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.navigation {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation li {
+    margin: 0.5rem 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    padding: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.view-buttons button {
+    padding: 0.7rem 1rem;
+    border: none;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------- GRID VIEW ---------- */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Member Card */
+
+.grid section {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Images */
+
+.grid img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* ---------- LIST VIEW ---------- */
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list section {
+    background-color: white;
+    padding: 1rem;
+}
+
+.list img {
+    display: none;
+}
+
+/* ---------- LINKS ---------- */
+
+a {
+    color: #003049;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #003049;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer-info,
+.footer-dev {
+    margin-bottom: 1rem;
+}

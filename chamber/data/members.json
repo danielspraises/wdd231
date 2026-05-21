@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Lagos Tech Hub",
+        "address": "12 Marina Road, Lagos Island, Lagos",
+        "phone": "+234 800 111 2222",
+        "website": "https://tech.com",
+        "image": "tech.jpg",
+        "membership": 3
+    },
+
+    {
+        "name": "Metro Logistics",
+        "address": "7 Lekki Phase 1, Lagos Island, Lagos",
+        "phone": "+234 800 222 3333",
+        "website": "https://logistics.com",
+        "image": "logistics.jpg",
+        "membership": 2
+    },
+
+    {
+        "name": "Naija Foods",
+        "address": "45 Allen Avenue, Ikeja, Lagos",
+        "phone": "+234 800 444 5555",
+        "website": "https://food.com",
+        "image": "food.png",
+        "membership": 1
+    },
+
+    {
+        "name": "Swift Bank",
+        "address": "89 Victoria Island, Lagos Island, Lagos",
+        "phone": "+234 800 777 8888",
+        "website": "https://bank.com",
+        "image": "banking.jpg",
+        "membership": 3
+    },
+
+    {
+        "name": "Ocean Travels",
+        "address": "10 Ikoyi Crescent, Ikoyi, Lagos",
+        "phone": "+234 800 999 0000",
+        "website": "https://example.com",
+        "image": "ocean.jpg",
+        "membership": 2
+    },
+
+    {
+        "name": "Green Energy Ltd",
+        "address": "22 Broad Street, Banana Island, Lagos",
+        "phone": "+234 800 123 4567",
+        "website": "https://example.com",
+        "image": "oil.jpg",
+        "membership": 1
+    },
+
+    {
+        "name": "City Fashion House",
+        "address": "14 Yaba Road, Yaba, Lagos",
+        "phone": "+234 800 555 1111",
+        "website": "https://example.com",
+        "image": "fashion.jpg",
+        "membership": 2
+    }
+]

@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    /* Navigation */
+
+    #menuBtn {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    /* Grid */
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+}

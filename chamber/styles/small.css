@@ -1,0 +1,216 @@
+/* ---------- GLOBAL ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: open sans, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #003049;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-area img {
+    width: 60px;
+    border-radius: 50px;
+}
+
+.logo-area .bus-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+#menuBtn {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+#menuBtn:hover {
+    background-color: #fcbf49;
+    transform: translateY(-2px);
+}
+
+.navigation {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation li {
+    padding: 0.3rem 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fcbf49;
+    transform: translateX(5px);
+}
+
+.navigation a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    padding: 2rem 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.view-buttons button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.view-buttons button:hover {
+    background-color: #005f73;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- GRID VIEW ---------- */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+/* ---------- MEMBER CARD ---------- */
+
+.grid section,
+.list section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.grid section:hover,
+.list section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- IMAGES ---------- */
+
+.grid img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 10px;
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+.grid img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- LIST VIEW ---------- */
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.list img {
+    display: none;
+}
+
+/* ---------- LINKS ---------- */
+
+a {
+    color: #003049;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #d62828;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #003049;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+/* .footer-info {
+    margin-bottom: 1rem;
+} */
+
+.footer-dev {
+    align-items: center;
+}
