@@ -135,3 +135,20 @@ function displaySpotlights(members) {
 }
 
 getSpotlights();
+
+
+/* =========================
+   FOOTER DATES
+========================= */
+
+document.querySelector("#year").textContent =
+new Date().getFullYear();
+
+document.querySelector("#lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+/* =========================
+   START FETCH
+========================= */
+
+getMembers();
