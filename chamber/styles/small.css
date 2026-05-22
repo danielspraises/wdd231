@@ -255,6 +255,7 @@ footer {
     z-index: 2;
     color: #ffffff;
     max-width: 500px;
+    background: none;
 }
 
 .hero-text h1 {
