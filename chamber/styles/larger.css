@@ -37,3 +37,43 @@
     }
 
 }
+
+/* ================ HOME PAGE ================ */
+
+@media screen and (min-width: 768px) {
+
+    /* ---------- HOME GRID ---------- */
+
+    .home-grid {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 1.5rem;
+
+        align-items: start;
+    }
+
+    /* Spotlight spans full width */
+
+    .home-grid .card:last-child {
+
+        grid-column: span 2;
+    }
+
+    /* Spotlight layout */
+
+    #spotlights {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Hero */
+
+    .hero-text h1 {
+
+        font-size: 3rem;
+    }
+
+}

@@ -189,12 +189,12 @@ main h1 {
 /* ---------- LINKS ---------- */
 
 a {
-    color: #003049;
+    color: #f77f00;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #d62828;
+    color: #db7202;
 }
 
 /* ---------- FOOTER ---------- */
@@ -214,4 +214,283 @@ footer {
 
 .footer-dev {
     align-items: center;
+}
+
+
+
+
+/* ================ HOME PAGE ================ */
+
+/* ---------- HERO ---------- */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* Dark overlay */
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+/* Hero text */
+
+.hero-text {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 2;
+    color: white;
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.hero-text p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+/* CTA */
+
+.cta-button {
+    display: inline-block;
+    background: #f77f00;
+    color: white;
+    padding: 0.9rem 1.4rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #d96d00;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* ---------- HOME GRID ---------- */
+
+.home-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+/* ---------- CARDS ---------- */
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #003049;
+}
+
+/* ---------- WEATHER ---------- */
+
+.weather-card p {
+    margin-bottom: 0.8rem;
+}
+
+/* ---------- SPOTLIGHTS ---------- */
+
+#spotlights {
+    display: grid;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    background: #fafafa;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 14px;
+    transition: transform 0.3s ease;
+    align-items: center;
+}
+
+.spotlight-card:hover {
+    transform: translateY(-3px);
+}
+
+.spotlight-card img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius:7px;
+    margin-bottom: 0.8rem;
+}
+
+.spotlight-card h3 {
+    color: #003049;
+}
+
+.spotlight-card a {
+    color: #f77f00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    color: #db7202;
+}
+
+/* =========================
+   EVENT CARD
+========================= */
+
+.event-card {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+}
+
+/* ---------- IMAGE ---------- */
+
+.event-card img {
+    width: 100%;
+    max-width: 550px;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: #f4f4f4;
+    display: block;
+    padding: 1rem;
+}
+
+/* ---------- CAPTION ---------- */
+
+.event-card figcaption {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex-grow: 1;
+}
+
+/* ---------- TITLE ---------- */
+
+.event-card span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #003049;
+    margin: 0px;
+}
+
+/* ---------- DESCRIPTION ---------- */
+
+.event-card p {
+    color: #444;
+    line-height: 1.6;
+    margin: 0px;
+}
+
+
+/* =========================
+   WEATHER CARD
+========================= */
+
+.weather-card {
+    background: linear-gradient(
+        135deg,
+        #003049,
+        #005b8f
+    );
+
+    color: white;
+}
+
+/* Heading */
+
+.weather-card h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Current temp */
+
+.weather-main {
+    margin-bottom: 1.5rem;
+}
+
+/* ---------- WEATHER TOP ---------- */
+
+.weather-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Weather icon */
+
+#weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
+/* Temperature */
+
+#current-temp {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Description */
+
+#weather-desc {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Forecast */
+
+.forecast {
+    display: grid;
+    gap: 0.8rem;
+}
+
+/* Forecast items */
+
+.forecast p {
+    background: rgba(255,255,255,0.12);
+    padding: 0.8rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
 }

@@ -40,7 +40,8 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <!-- JavaScript -->
-    <script src="scripts/directory.js" defer></script>
+    <!-- <script src="scripts/directory.js" defer></script> -->
+    <script src="scripts/index.js" defer></script>
 
 </head>
 
@@ -61,9 +62,9 @@
 
             <ul class="navigation">
 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
 
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
 
                 <li><a href="#">Join</a></li>
 
@@ -78,19 +79,105 @@
     <!-- MAIN -->
     <main>
 
-        <h1>Business Directory</h1>
+        <!-- HERO SECTION -->
+        <section class="hero">
 
-        <!-- View Toggle Buttons -->
-        <div class="view-buttons">
+            <img src="images/hero.jpg"
+                alt="Lagos city business district">
 
-            <button id="gridBtn">⊞ Grid</button>
+            <div class="hero-text">
 
-            <button id="listBtn">☰ List</button>
+                <h1>Lagos Chamber of Commerce</h1>
 
-        </div>
+                <p>
+                    Connecting businesses, opportunities,
+                    and innovation across Lagos.
+                </p>
 
-        <!-- Dynamic Member Area -->
-        <section id="members" class="grid"></section>
+                <a href="#" class="cta-button">
+                    Join The Chamber
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- HOME GRID -->
+        <section class="home-grid">
+
+            <!-- EVENTS -->
+            <section class="card">
+
+                <!-- <h2>Current Events</h2>
+
+                <p>
+                    Lagos Business Expo 2026 begins this Friday
+                    at the Civic Center.
+                </p>
+
+                <p>
+                    Network with top entrepreneurs and investors.
+                </p> -->
+
+                <figure class="event-card">
+
+                    <img src="images/event.jpg"
+                        alt="Lagos Business Expo">
+
+                    <figcaption>
+
+                        <span>Lagos Business Expo 2026</span>
+
+                        <p>
+                            Network with top entrepreneurs and investors
+                            at the Civic Center beginning this Friday.
+                        </p>
+
+                    </figcaption>
+
+                </figure>
+
+            </section>
+
+            <!-- WEATHER -->
+            <section class="card weather-card">
+
+                <h2>Weather</h2>
+
+                <div class="weather-main">
+
+                    <!-- <p id="current-temp"></p>
+
+                    <p id="weather-desc"></p>
+
+                </div> -->
+
+                        <div class="weather-top">
+
+                            <img id="weather-icon"
+                                src="images/weather.png"
+                                alt="Weather Icon">
+
+                            <p id="current-temp"></p>
+
+                        </div>
+
+                        <p id="weather-desc"></p>
+
+                <div id="forecast" class="forecast"></div>
+
+            </section>
+
+            <!-- SPOTLIGHTS -->
+            <section class="card">
+
+                <h2>Business Spotlights</h2>
+
+                <div id="spotlights"></div>
+
+            </section>
+
+        </section>
 
     </main>
 
