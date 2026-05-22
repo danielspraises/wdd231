@@ -146,9 +146,3 @@ new Date().getFullYear();
 
 document.querySelector("#lastModified").textContent =
 `Last Modified: ${document.lastModified}`;
-
-/* =========================
-   START FETCH
-========================= */
-
-getMembers();
