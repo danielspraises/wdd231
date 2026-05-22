@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #003049;
-    color: white;
+    color: #ffffff;
     padding: 1rem 1.5rem;
 }
 
@@ -43,7 +43,8 @@ header {
     margin-top: 1rem;
     padding: 0.6rem 1rem;
     border: none;
-    background: white;
+    background:#ffffff;
+    color: #003049;
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s ease,
@@ -72,7 +73,7 @@ header {
 }
 
 .navigation a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 0.8rem;
     border-radius: 6px;
@@ -116,7 +117,7 @@ main h1 {
     padding: 0.8rem 1.2rem;
     border: none;
     background-color: #003049;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s ease,
@@ -142,7 +143,7 @@ main h1 {
 
 .grid section,
 .list section {
-    background-color: white;
+    background-color: #ffffff;
     padding: 1.5rem;
     border-radius: 12px;
     text-align: center;
@@ -200,7 +201,7 @@ a:hover {
 
 footer {
     background-color: #003049;
-    color: white;
+    color: #ffffff;
     padding: 2rem 1rem;
     margin-top: 3rem;
     text-align: center;
