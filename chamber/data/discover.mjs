@@ -3,48 +3,48 @@ export const discoverItems = [
     name: "Nike Art Gallery",
     address: "Lekki-Epe Expressway, Lagos",
     description: "One of the largest art galleries in West Africa showcasing Nigerian culture and artwork.",
-    image: "nike.jpg"
+    image: "nike.webp"
   },
   {
     name: "Lekki Conservation Centre",
     address: "Lekki Peninsula, Lagos",
     description: "A nature reserve with canopy walkway and wildlife viewing experiences.",
-    image: "lekki conservation centre.jpg"
+    image: "lekki conservation centre.webp"
   },
   {
     name: "National Museum Lagos",
     address: "Onikan, Lagos Island",
     description: "Home to Nigerian historical artifacts and cultural heritage collections.",
-    image: "national museum.jpg"
+    image: "national museum.webp"
   },
   {
     name: "Freedom Park",
     address: "Broad Street, Lagos Island",
     description: "A memorial and leisure park built on a former colonial prison site.",
-    image: "freedom park.jpg"
+    image: "freedom park.webp"
   },
   {
     name: "Tarkwa Bay Beach",
     address: "Lagos Harbour",
     description: "A sheltered beach accessible only by boat, popular for relaxation.",
-    image: "tarkwa beach.jpg"
+    image: "tarkwa beach.webp"
   },
   {
     name: "New Afrika Shrine",
     address: "Ikeja, Lagos",
     description: "Famous live music venue celebrating Afrobeat culture.",
-    image: "afrik shrine.jpg"
+    image: "afrik shrine.webp"
   },
   {
     name: "Kalakuta Museum",
     address: "Ikeja, Lagos",
     description: "Museum dedicated to Fela Kuti and Nigerian music history.",
-    image: "kalakuta museum.jpg"
+    image: "kalakuta museum.webp"
   },
   {
     name: "Elegushi Beach",
     address: "Lekki, Lagos",
     description: "Popular nightlife beach destination with entertainment and food.",
-    image: "elegushi beach.jpg"
+    image: "elegushi beach.webp"
   }
 ];
