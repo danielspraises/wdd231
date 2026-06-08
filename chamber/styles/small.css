@@ -696,3 +696,50 @@ dialog::backdrop {
     padding: 1rem;
     border-radius: 8px;
 }
+
+
+
+
+
+/* ===================================
+   DISCOVER PAGE
+=================================== */
+
+/* =========================
+   DISCOVER PAGE (MOBILE)
+========================= */
+
+.discover-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.discover-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.discover-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.discover-card button {
+    margin-top: 0.5rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    background: #003049;
+    color: white;
+    border-radius: 6px;
+}
+
+#visitMessage {
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: underline;
+    color: var(--text);
+    font-weight: bold;
+}

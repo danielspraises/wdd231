@@ -99,3 +99,47 @@
     }
 
 }
+
+
+/* ===================================
+   DISCOVER PAGE
+=================================== */
+
+/* =========================
+   DISCOVER PAGE LAYOUT
+========================= */
+
+@media screen and (min-width: 768px) {
+
+.discover-grid {
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h h";
+    gap: 1.5rem;
+}
+
+/* assign areas */
+.discover-card:nth-child(1) { grid-area: a; }
+.discover-card:nth-child(2) { grid-area: b; }
+.discover-card:nth-child(3) { grid-area: c; }
+.discover-card:nth-child(4) { grid-area: d; }
+.discover-card:nth-child(5) { grid-area: e; }
+.discover-card:nth-child(6) { grid-area: f; }
+.discover-card:nth-child(7) { grid-area: g; }
+.discover-card:nth-child(8) { grid-area: h; }
+}
+
+/* LARGE SCREEN HOVER EFFECT ONLY */
+@media screen and (min-width: 1025px) {
+
+.discover-card img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.discover-card img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+}
