@@ -1,0 +1,195 @@
+/* =========================
+   ROOT VARIABLES (EASY EDIT)
+========================= */
+:root {
+
+    --primary: #75070c;
+
+    --secondary: #ffedab;
+
+    --bg: #FAF3E8;
+    --card: #ffffff;
+    --text: #3E2723;
+    --muted: #6b7280;
+    --accent: #4f6815;
+    --accent2: #f0e6da;
+
+    --border: #e5e7eb;
+
+    --radius: 12px;
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+    --font-heading: "Poppins", Arial, sans-serif;
+    --font-body: "Open Sans", Arial, sans-serif;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER (MODERN HERO STYLE)
+========================= */
+header {
+    background: var(--primary);
+    color: var(--secondary);
+    padding: 28px 20px;
+    text-align: center;
+    display: flex;
+    box-shadow: var(--shadow);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-area img {
+    width: 150px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--secondary);
+}
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* =========================
+   SECTIONS (CARD DESIGN)
+========================= */
+section {
+    background: var(--card);
+    margin-bottom: 20px;
+    padding: 22px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h1, h2 {
+    font-family: var(--font-heading);
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+}
+
+/* =========================
+   TEXT
+========================= */
+p {
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+/* =========================
+   COLOR BOXES
+========================= */
+.color-box {
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: var(--radius);
+    color: white;
+    font-weight: 600;
+}
+
+/* Variants */
+.primary {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.primary-dark {
+    background: var(--primary-dark);
+    color: var(--secondary);
+}
+
+.primary p {
+    color: var(--secondary);
+}
+
+.secondary {
+    background: var(--secondary);
+}
+
+.secondary-dark {
+    background: var(--secondary-dark);
+}
+
+.secondary p {
+    color: var(--primary);
+}
+
+.neutral {
+    background: var(--bg);
+}
+
+/* =========================
+   WIREFRAME BOX
+========================= */
+.wireframe {
+    border: 2px dashed var(--muted);
+    padding: 16px;
+    border-radius: var(--radius);
+    background: #fafafa;
+    color: var(--muted);
+    font-family: monospace;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 18px;
+    background: var(--secondary);
+    color: white;
+    font-weight: 600;
+}
