@@ -9,7 +9,7 @@ export const discoverItems = [
     name: "Lekki Conservation Centre",
     address: "Lekki Peninsula, Lagos",
     description: "A nature reserve with canopy walkway and wildlife viewing experiences.",
-    image: "lekki conservation centre.webp"
+    image: "1.webp"
   },
   {
     name: "National Museum Lagos",
@@ -21,7 +21,7 @@ export const discoverItems = [
     name: "Freedom Park",
     address: "Broad Street, Lagos Island",
     description: "A memorial and leisure park built on a former colonial prison site.",
-    image: "freedom park.webp"
+    image: "2.webp"
   },
   {
     name: "Tarkwa Bay Beach",
@@ -33,7 +33,7 @@ export const discoverItems = [
     name: "New Afrika Shrine",
     address: "Ikeja, Lagos",
     description: "Famous live music venue celebrating Afrobeat culture.",
-    image: "afrik shrine.webp"
+    image: "3.webp"
   },
   {
     name: "Kalakuta Museum",
@@ -45,6 +45,6 @@ export const discoverItems = [
     name: "Elegushi Beach",
     address: "Lekki, Lagos",
     description: "Popular nightlife beach destination with entertainment and food.",
-    image: "elegushi beach.webp"
+    image: "4.webp"
   }
 ];
