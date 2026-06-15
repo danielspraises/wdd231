@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Jollof Rice",
+    "category": "Dinner",
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "image": "jollof-rice.webp",
+    "description": "A rich West African rice dish cooked in tomato sauce and spices.",
+    "ingredients": ["Rice", "Tomatoes", "Pepper", "Onions", "Spices"],
+    "instructions": "Cook rice in seasoned tomato sauce until tender."
+  },
+  {
+    "id": 2,
+    "name": "Fried Rice",
+    "category": "Dinner",
+    "time": "35 mins",
+    "difficulty": "Easy",
+    "image": "fried-rice.webp",
+    "description": "Colorful rice stir-fried with vegetables and protein.",
+    "ingredients": ["Rice", "Carrots", "Peas", "Chicken", "Soy sauce"],
+    "instructions": "Stir-fry vegetables and mix with cooked rice."
+  },
+  {
+    "id": 3,
+    "name": "Pancakes",
+    "category": "Breakfast",
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "image": "pancakes.webp",
+    "description": "Soft and fluffy breakfast pancakes served with syrup.",
+    "ingredients": ["Flour", "Eggs", "Milk", "Sugar", "Butter"],
+    "instructions": "Mix ingredients and cook on a hot pan."
+  },
+  {
+    "id": 4,
+    "name": "Omelette",
+    "category": "Breakfast",
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "image": "omelette.webp",
+    "description": "Quick egg omelette with vegetables and spices.",
+    "ingredients": ["Eggs", "Onions", "Pepper", "Salt"],
+    "instructions": "Beat eggs and fry with fillings."
+  },
+  {
+    "id": 5,
+    "name": "Spaghetti Bolognese",
+    "category": "Dinner",
+    "time": "50 mins",
+    "difficulty": "Medium",
+    "image": "spaghetti.webp",
+    "description": "Classic pasta with rich meat sauce.",
+    "ingredients": ["Spaghetti", "Minced meat", "Tomato sauce", "Garlic"],
+    "instructions": "Cook pasta and top with meat sauce."
+  },
+  {
+    "id": 6,
+    "name": "Chicken Sandwich",
+    "category": "Lunch",
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "image": "chicken-sandwich.webp",
+    "description": "Grilled chicken sandwich with fresh veggies.",
+    "ingredients": ["Bread", "Chicken", "Lettuce", "Mayo"],
+    "instructions": "Assemble grilled chicken between bread slices."
+  },
+  {
+    "id": 7,
+    "name": "Suya",
+    "category": "Snack",
+    "time": "25 mins",
+    "difficulty": "Medium",
+    "image": "suya.webp",
+    "description": "Spicy grilled meat skewers Nigerian style.",
+    "ingredients": ["Beef", "Suya spice", "Onions"],
+    "instructions": "Grill seasoned meat over open flame."
+  },
+  {
+    "id": 8,
+    "name": "Fruit Salad",
+    "category": "Snack",
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "image": "fruit-salad.webp",
+    "description": "Fresh mix of seasonal fruits.",
+    "ingredients": ["Apple", "Banana", "Orange", "Grapes"],
+    "instructions": "Chop and mix all fruits together."
+  },
+  {
+    "id": 9,
+    "name": "Yam Porridge",
+    "category": "Lunch",
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "image": "yam-porridge.webp",
+    "description": "Soft yam cooked in rich pepper sauce.",
+    "ingredients": ["Yam", "Palm oil", "Pepper", "Fish"],
+    "instructions": "Cook yam in spiced sauce until soft."
+  },
+  {
+    "id": 10,
+    "name": "Burger",
+    "category": "Fast Food",
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "image": "burger.webp",
+    "description": "Juicy beef burger with cheese and veggies.",
+    "ingredients": ["Buns", "Beef", "Cheese", "Lettuce"],
+    "instructions": "Grill beef and assemble burger."
+  },
+  {
+    "id": 11,
+    "name": "Chocolate Cake",
+    "category": "Dessert",
+    "time": "60 mins",
+    "difficulty": "Hard",
+    "image": "chocolate-cake.webp",
+    "description": "Rich and moist chocolate layered cake.",
+    "ingredients": ["Flour", "Cocoa", "Sugar", "Eggs"],
+    "instructions": "Bake batter in oven until fluffy."
+  },
+  {
+    "id": 12,
+    "name": "Milkshake",
+    "category": "Drink",
+    "time": "5 mins",
+    "difficulty": "Easy",
+    "image": "milkshake.webp",
+    "description": "Cold creamy blended milk drink.",
+    "ingredients": ["Milk", "Ice cream", "Sugar"],
+    "instructions": "Blend ingredients until smooth."
+  },
+  {
+    "id": 13,
+    "name": "Egusi Soup",
+    "category": "Dinner",
+    "time": "55 mins",
+    "difficulty": "Hard",
+    "image": "egusi-soup.webp",
+    "description": "Traditional Nigerian melon seed soup.",
+    "ingredients": ["Egusi", "Palm oil", "Spinach", "Meat"],
+    "instructions": "Cook melon seeds with spices and vegetables."
+  },
+  {
+    "id": 14,
+    "name": "Plantain Chips",
+    "category": "Snack",
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "image": "plantain-chips.webp",
+    "description": "Crispy fried plantain slices.",
+    "ingredients": ["Plantain", "Oil", "Salt"],
+    "instructions": "Slice and fry plantain until crispy."
+  },
+  {
+    "id": 15,
+    "name": "Noodles",
+    "category": "Quick Meal",
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "image": "noodles.webp",
+    "description": "Fast and easy instant noodles meal.",
+    "ingredients": ["Noodles", "Seasoning", "Egg"],
+    "instructions": "Boil noodles and add seasoning."
+  }
+]

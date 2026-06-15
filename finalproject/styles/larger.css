@@ -1,0 +1,348 @@
+/* ==========================================
+   TABLETS & DESKTOPS
+========================================== */
+
+@media screen and (min-width: 768px) {
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    #menuBtn {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        position: static;
+        background: transparent;
+        width: auto;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .navigation a {
+        padding: .75rem 1rem;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        min-height: 80vh;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        max-width: 650px;
+        margin: 0 auto 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+    /* =========================
+       FEATURED RECIPES
+    ========================= */
+
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* =========================
+       BENEFITS
+    ========================= */
+
+    .benefit-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* =========================
+       RECIPES PAGE
+    ========================= */
+
+    .recipes-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-box {
+        max-width: 600px;
+    }
+
+    .filter-buttons {
+        justify-content: center;
+    }
+
+    /* =========================
+       SUBMIT PAGE
+    ========================= */
+
+    .submit-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+}
+
+/* ==========================================
+   LARGE DESKTOPS
+========================================== */
+
+@media screen and (min-width: 1024px) {
+
+    /* =========================
+       GENERAL
+    ========================= */
+
+    main {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    .logo img {
+        width: 120px;
+    }
+
+    .site-name {
+        font-size: 1.4rem;
+    }
+
+    .navigation {
+        gap: 2rem;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero-content h1 {
+        font-size: 4.8rem;
+        line-height: 1.1;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        padding: 1rem 1.8rem;
+    }
+
+    /* =========================
+       FEATURED RECIPES
+    ========================= */
+
+    .recipe-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .recipe-card img {
+        height: 240px;
+    }
+
+    /* Desktop hover effects */
+
+    .recipe-card img {
+        transition:
+            transform .4s ease,
+            filter .4s ease;
+    }
+
+    .recipe-card:hover img {
+        transform: scale(1.05);
+        filter: brightness(1.05);
+    }
+
+
+
+
+    .search-cate {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-header {
+        justify-content: space-evenly;
+    }
+
+    .benefits-grid {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    /* =========================
+       RECIPES PAGE
+    ========================= */
+
+    .recipes-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .recipe-card {
+        overflow: hidden;
+    }
+
+    /* =========================
+       MODAL
+    ========================= */
+
+    dialog {
+        max-width: 800px;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+        padding: 3rem 2rem;
+    }
+
+    .footer-content {
+        grid-template-columns:
+            1.5fr
+            1fr
+            1fr;
+    }
+
+}
+
+/* ==========================================
+   EXTRA LARGE SCREENS
+========================================== */
+
+@media screen and (min-width: 1400px) {
+
+    .hero-content h1 {
+        font-size: 5.5rem;
+    }
+
+    .hero-content {
+        max-width: 1000px;
+    }
+
+    .recipe-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .recipes-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+
+    header .logo-tag {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+    .recipe-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .category-grid {
+        justify-content: center;
+    }
+
+    .category-pill {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+
+
+/* ===================================
+   LARGE SCREEN FORM STYLES
+=================================== */
+
+
+    .form-wrapper {
+        padding: 2.5rem;
+    }
+
+    .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form-grid .full-width {
+        grid-column: 1 / -1;
+    }
+
+    .recipe-form {
+        gap: 1.5rem;
+    }
+
+    .submit-btn {
+        width: fit-content;
+        min-width: 220px;
+        align-self: flex-start;
+    }
+
+    .success-card {
+        padding: 3rem;
+    }
+
+    .submitted-data {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

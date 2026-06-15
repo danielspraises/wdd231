@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Discover easy and delicious recipes for breakfast, lunch, dinner, snacks, and desserts.">
+
+    <meta name="author"
+        content="Eden PraiseGod Daniel">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="Easy Recipe Collection">
+
+    <meta property="og:description"
+        content="Find simple recipes, cooking ideas, and meal inspiration for every occasion.">
+
+    <meta property="og:image"
+        content="https://danielspraises.github.io/wdd231/recipe/images/logo.png">
+
+    <meta property="og:url"
+        content="https://danielspraises.github.io/wdd231/recipe/index.html">
+
+    <title>Easy Recipe Collection | Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/recipe.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+
+            <div class="logo-tag">
+
+            <a href="index.html" class="logo">
+                <img src="images/logo.webp" alt="Easy Recipe Collection Logo">
+            </a>
+
+            <div class="site-name">
+                Easy Recipe Collection
+            </div>
+            </div>
+
+            <button id="menuBtn">&#9776;</button>
+
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="submit.html" class="active">Submit Recipe</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    
+    <main>
+
+        <section class="thankyou-section">
+
+            <div class="thankyou-card">
+
+                <h1>Recipe Submitted!</h1>
+
+                <p class="thankyou-message">
+                    Thank you for sharing your recipe with our community.
+                </p>
+
+                <div id="submissionDetails"
+                    class="submission-details">
+
+                    <a href="index.html"
+                        class="back-home-btn">
+                        Back to Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+
+            <h3>Easy Recipe Collection</h3>
+
+            <p>
+                Helping people create delicious meals
+                with confidence.
+            </p>
+
+        </div>
+
+        <div>
+
+            <p>
+                &copy;
+                <span id="year"></span>
+                Eden PraiseGod Daniel | WDD 231 Final Project
+            </p>
+
+                
+
+            <p>
+                <a href="attributions.html">
+                    Attributions
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Project Video
+                </a>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
