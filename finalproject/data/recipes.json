@@ -5,10 +5,34 @@
     "category": "Dinner",
     "time": "45 mins",
     "difficulty": "Medium",
-    "image": "jollof-rice.webp",
-    "description": "A rich West African rice dish cooked in tomato sauce and spices.",
-    "ingredients": ["Rice", "Tomatoes", "Pepper", "Onions", "Spices"],
-    "instructions": "Cook rice in seasoned tomato sauce until tender."
+    "image": "jollof rice.webp",
+    "description": "A rich West African rice dish cooked in tomato sauce and aromatic spices.",
+    "ingredients": [
+      "2 cups long-grain rice",
+      "Tomatoes",
+      "Red bell peppers",
+      "Onions",
+      "Tomato paste",
+      "Chicken stock",
+      "Curry powder",
+      "Thyme",
+      "Vegetable oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Blend tomatoes, peppers, and onions.",
+      "Cook the blended mixture until reduced.",
+      "Add tomato paste and seasonings.",
+      "Pour in the stock and bring to a boil.",
+      "Add washed rice and stir.",
+      "Cover and cook until the rice is tender.",
+      "Fluff with a fork before serving."
+    ],
+    "recommended": [
+      "Grilled Chicken",
+      "Fried Plantain",
+      "Coleslaw"
+    ]
   },
   {
     "id": 2,
@@ -16,10 +40,29 @@
     "category": "Dinner",
     "time": "35 mins",
     "difficulty": "Easy",
-    "image": "fried-rice.webp",
-    "description": "Colorful rice stir-fried with vegetables and protein.",
-    "ingredients": ["Rice", "Carrots", "Peas", "Chicken", "Soy sauce"],
-    "instructions": "Stir-fry vegetables and mix with cooked rice."
+    "image": "fried rice.webp",
+    "description": "Flavorful stir-fried rice loaded with vegetables and chicken.",
+    "ingredients": [
+      "Cooked rice",
+      "Carrots",
+      "Green peas",
+      "Sweet corn",
+      "Chicken",
+      "Soy sauce",
+      "Vegetable oil"
+    ],
+    "instructions": [
+      "Cook and dice the chicken.",
+      "Stir-fry the vegetables.",
+      "Add the rice and soy sauce.",
+      "Mix in the chicken.",
+      "Cook for 5 minutes and serve hot."
+    ],
+    "recommended": [
+      "Chicken Drumsticks",
+      "Spring Rolls",
+      "Fresh Salad"
+    ]
   },
   {
     "id": 3,
@@ -27,10 +70,28 @@
     "category": "Breakfast",
     "time": "20 mins",
     "difficulty": "Easy",
-    "image": "pancakes.webp",
-    "description": "Soft and fluffy breakfast pancakes served with syrup.",
-    "ingredients": ["Flour", "Eggs", "Milk", "Sugar", "Butter"],
-    "instructions": "Mix ingredients and cook on a hot pan."
+    "image": "pancake.webp",
+    "description": "Soft, fluffy pancakes perfect for breakfast.",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Sugar",
+      "Butter",
+      "Baking powder"
+    ],
+    "instructions": [
+      "Mix the dry ingredients.",
+      "Whisk in milk and eggs.",
+      "Add melted butter.",
+      "Pour batter onto a hot pan.",
+      "Cook both sides until golden."
+    ],
+    "recommended": [
+      "Maple Syrup",
+      "Fresh Berries",
+      "Orange Juice"
+    ]
   },
   {
     "id": 4,
@@ -39,9 +100,27 @@
     "time": "10 mins",
     "difficulty": "Easy",
     "image": "omelette.webp",
-    "description": "Quick egg omelette with vegetables and spices.",
-    "ingredients": ["Eggs", "Onions", "Pepper", "Salt"],
-    "instructions": "Beat eggs and fry with fillings."
+    "description": "A fluffy egg omelette with fresh vegetables.",
+    "ingredients": [
+      "Eggs",
+      "Onions",
+      "Bell peppers",
+      "Salt",
+      "Black pepper",
+      "Butter"
+    ],
+    "instructions": [
+      "Beat the eggs thoroughly.",
+      "Add chopped vegetables.",
+      "Season to taste.",
+      "Cook in a buttered pan until set.",
+      "Fold and serve."
+    ],
+    "recommended": [
+      "Toast",
+      "Tea",
+      "Fresh Fruit"
+    ]
   },
   {
     "id": 5,
@@ -50,9 +129,26 @@
     "time": "50 mins",
     "difficulty": "Medium",
     "image": "spaghetti.webp",
-    "description": "Classic pasta with rich meat sauce.",
-    "ingredients": ["Spaghetti", "Minced meat", "Tomato sauce", "Garlic"],
-    "instructions": "Cook pasta and top with meat sauce."
+    "description": "Classic spaghetti served with a rich meat sauce.",
+    "ingredients": [
+      "Spaghetti",
+      "Ground beef",
+      "Tomato sauce",
+      "Garlic",
+      "Onion",
+      "Olive oil"
+    ],
+    "instructions": [
+      "Cook the spaghetti until al dente.",
+      "Brown the beef.",
+      "Add onions, garlic, and tomato sauce.",
+      "Simmer for 20 minutes.",
+      "Serve over cooked spaghetti."
+    ],
+    "recommended": [
+      "Garlic Bread",
+      "Caesar Salad"
+    ]
   },
   {
     "id": 6,
@@ -60,10 +156,26 @@
     "category": "Lunch",
     "time": "15 mins",
     "difficulty": "Easy",
-    "image": "chicken-sandwich.webp",
-    "description": "Grilled chicken sandwich with fresh veggies.",
-    "ingredients": ["Bread", "Chicken", "Lettuce", "Mayo"],
-    "instructions": "Assemble grilled chicken between bread slices."
+    "image": "chicken.webp",
+    "description": "A grilled chicken sandwich with crisp vegetables.",
+    "ingredients": [
+      "Bread",
+      "Grilled chicken",
+      "Lettuce",
+      "Tomato",
+      "Mayonnaise"
+    ],
+    "instructions": [
+      "Toast the bread.",
+      "Spread mayonnaise.",
+      "Layer lettuce, tomato, and chicken.",
+      "Cover with another slice of bread.",
+      "Cut and serve."
+    ],
+    "recommended": [
+      "French Fries",
+      "Fresh Juice"
+    ]
   },
   {
     "id": 7,
@@ -72,9 +184,25 @@
     "time": "25 mins",
     "difficulty": "Medium",
     "image": "suya.webp",
-    "description": "Spicy grilled meat skewers Nigerian style.",
-    "ingredients": ["Beef", "Suya spice", "Onions"],
-    "instructions": "Grill seasoned meat over open flame."
+    "description": "Spicy Nigerian grilled beef skewers.",
+    "ingredients": [
+      "Beef",
+      "Suya spice",
+      "Groundnut oil",
+      "Onions",
+      "Tomatoes"
+    ],
+    "instructions": [
+      "Slice beef into thin strips.",
+      "Season generously with suya spice.",
+      "Skewer the meat.",
+      "Grill until cooked.",
+      "Serve with onions and tomatoes."
+    ],
+    "recommended": [
+      "Cold Soft Drink",
+      "Roasted Corn"
+    ]
   },
   {
     "id": 8,
@@ -82,10 +210,25 @@
     "category": "Snack",
     "time": "10 mins",
     "difficulty": "Easy",
-    "image": "fruit-salad.webp",
-    "description": "Fresh mix of seasonal fruits.",
-    "ingredients": ["Apple", "Banana", "Orange", "Grapes"],
-    "instructions": "Chop and mix all fruits together."
+    "image": "fruit salad.webp",
+    "description": "A refreshing mix of seasonal fruits.",
+    "ingredients": [
+      "Apple",
+      "Banana",
+      "Orange",
+      "Grapes",
+      "Pineapple"
+    ],
+    "instructions": [
+      "Wash all fruits.",
+      "Peel and dice as needed.",
+      "Mix gently in a bowl.",
+      "Serve chilled."
+    ],
+    "recommended": [
+      "Yogurt",
+      "Granola"
+    ]
   },
   {
     "id": 9,
@@ -93,10 +236,27 @@
     "category": "Lunch",
     "time": "40 mins",
     "difficulty": "Medium",
-    "image": "yam-porridge.webp",
-    "description": "Soft yam cooked in rich pepper sauce.",
-    "ingredients": ["Yam", "Palm oil", "Pepper", "Fish"],
-    "instructions": "Cook yam in spiced sauce until soft."
+    "image": "yam porridge.webp",
+    "description": "Creamy yam porridge cooked in spicy palm oil sauce.",
+    "ingredients": [
+      "Yam",
+      "Palm oil",
+      "Pepper",
+      "Crayfish",
+      "Fish",
+      "Seasoning cubes"
+    ],
+    "instructions": [
+      "Peel and cube the yam.",
+      "Cook with water until soft.",
+      "Add palm oil and spices.",
+      "Stir in fish.",
+      "Cook until creamy."
+    ],
+    "recommended": [
+      "Avocado",
+      "Grilled Fish"
+    ]
   },
   {
     "id": 10,
@@ -105,9 +265,25 @@
     "time": "20 mins",
     "difficulty": "Easy",
     "image": "burger.webp",
-    "description": "Juicy beef burger with cheese and veggies.",
-    "ingredients": ["Buns", "Beef", "Cheese", "Lettuce"],
-    "instructions": "Grill beef and assemble burger."
+    "description": "A juicy beef burger with fresh vegetables and cheese.",
+    "ingredients": [
+      "Burger buns",
+      "Beef patty",
+      "Cheese",
+      "Lettuce",
+      "Tomato",
+      "Onion"
+    ],
+    "instructions": [
+      "Grill the beef patty.",
+      "Toast the buns.",
+      "Assemble with vegetables and cheese.",
+      "Serve immediately."
+    ],
+    "recommended": [
+      "French Fries",
+      "Milkshake"
+    ]
   },
   {
     "id": 11,
@@ -115,10 +291,27 @@
     "category": "Dessert",
     "time": "60 mins",
     "difficulty": "Hard",
-    "image": "chocolate-cake.webp",
-    "description": "Rich and moist chocolate layered cake.",
-    "ingredients": ["Flour", "Cocoa", "Sugar", "Eggs"],
-    "instructions": "Bake batter in oven until fluffy."
+    "image": "chocolate cake.webp",
+    "description": "A moist and rich chocolate layer cake.",
+    "ingredients": [
+      "Flour",
+      "Cocoa powder",
+      "Sugar",
+      "Eggs",
+      "Butter",
+      "Milk"
+    ],
+    "instructions": [
+      "Prepare the cake batter.",
+      "Pour into baking pans.",
+      "Bake until done.",
+      "Cool completely.",
+      "Frost and decorate."
+    ],
+    "recommended": [
+      "Vanilla Ice Cream",
+      "Coffee"
+    ]
   },
   {
     "id": 12,
@@ -127,9 +320,23 @@
     "time": "5 mins",
     "difficulty": "Easy",
     "image": "milkshake.webp",
-    "description": "Cold creamy blended milk drink.",
-    "ingredients": ["Milk", "Ice cream", "Sugar"],
-    "instructions": "Blend ingredients until smooth."
+    "description": "A creamy, chilled milkshake blended to perfection.",
+    "ingredients": [
+      "Milk",
+      "Vanilla ice cream",
+      "Sugar",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Add ingredients to a blender.",
+      "Blend until smooth.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ],
+    "recommended": [
+      "Cookies",
+      "Chocolate Cake"
+    ]
   },
   {
     "id": 13,
@@ -137,10 +344,28 @@
     "category": "Dinner",
     "time": "55 mins",
     "difficulty": "Hard",
-    "image": "egusi-soup.webp",
-    "description": "Traditional Nigerian melon seed soup.",
-    "ingredients": ["Egusi", "Palm oil", "Spinach", "Meat"],
-    "instructions": "Cook melon seeds with spices and vegetables."
+    "image": "egusi.webp",
+    "description": "Traditional Nigerian melon seed soup rich in flavor.",
+    "ingredients": [
+      "Ground egusi",
+      "Palm oil",
+      "Spinach",
+      "Beef",
+      "Stockfish",
+      "Seasonings"
+    ],
+    "instructions": [
+      "Cook the meat until tender.",
+      "Fry the egusi in palm oil.",
+      "Add stock and meat.",
+      "Simmer until thick.",
+      "Stir in vegetables."
+    ],
+    "recommended": [
+      "Pounded Yam",
+      "Eba",
+      "Fufu"
+    ]
   },
   {
     "id": 14,
@@ -148,10 +373,24 @@
     "category": "Snack",
     "time": "15 mins",
     "difficulty": "Easy",
-    "image": "plantain-chips.webp",
-    "description": "Crispy fried plantain slices.",
-    "ingredients": ["Plantain", "Oil", "Salt"],
-    "instructions": "Slice and fry plantain until crispy."
+    "image": "plantain chips.webp",
+    "description": "Crunchy fried plantain chips seasoned with salt.",
+    "ingredients": [
+      "Unripe plantain",
+      "Vegetable oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Peel the plantain.",
+      "Slice thinly.",
+      "Deep-fry until golden.",
+      "Drain excess oil.",
+      "Season with salt."
+    ],
+    "recommended": [
+      "Peanut Dip",
+      "Soft Drink"
+    ]
   },
   {
     "id": 15,
@@ -160,8 +399,24 @@
     "time": "10 mins",
     "difficulty": "Easy",
     "image": "noodles.webp",
-    "description": "Fast and easy instant noodles meal.",
-    "ingredients": ["Noodles", "Seasoning", "Egg"],
-    "instructions": "Boil noodles and add seasoning."
+    "description": "Quick and tasty instant noodles with vegetables and egg.",
+    "ingredients": [
+      "Instant noodles",
+      "Seasoning sachet",
+      "Egg",
+      "Carrots",
+      "Green onions"
+    ],
+    "instructions": [
+      "Boil water.",
+      "Cook the noodles.",
+      "Add seasoning.",
+      "Stir in vegetables and egg.",
+      "Serve hot."
+    ],
+    "recommended": [
+      "Grilled Chicken",
+      "Fresh Juice"
+    ]
   }
 ]

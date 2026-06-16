@@ -111,11 +111,90 @@ searchInput.addEventListener("input", (e) => {
 ========================= */
 function openModal(recipe) {
 
+    // Ingredients List
+    const ingredients = recipe.ingredients
+        .map(item => `<li>${item}</li>`)
+        .join("");
+
+    // Instructions List
+    const instructions = recipe.instructions
+        .map(step => `<li>${step}</li>`)
+        .join("");
+
+    // Recommended Pairings (only if available)
+    const recommendations = recipe.recommended && recipe.recommended.length
+        ? `
+            <h3>Recommended Pairings</h3>
+            <ul class="recommended-list">
+                ${recipe.recommended.map(item => `<li>${item}</li>`).join("")}
+            </ul>
+          `
+        : "";
+
+    // modalContent.innerHTML = `
+    //     <img
+    //         src="images/${recipe.image}"
+    //         alt="${recipe.name}"
+    //         class="modal-image"
+    //     >
+
+    //     <h2>${recipe.name}</h2>
+
+    //     <div class="recipe-meta">
+    //         <span>${recipe.category}</span>
+    //         <span>${recipe.time}</span>
+    //         <span>${recipe.difficulty}</span>
+    //     </div>
+
+    //     <p class="recipe-description">
+    //         ${recipe.description}
+    //     </p>
+
+    //     <h3>Ingredients</h3>
+    //     <ul class="ingredients-list">
+    //         ${ingredients}
+    //     </ul>
+
+    //     <h3>Instructions</h3>
+    //     <ol class="instruction-list">
+    //         ${instructions}
+    //     </ol>
+
+    //     ${recommendations}
+    // `;
+
     modalContent.innerHTML = `
-        <h2>${recipe.name}</h2>
-        <p><strong>Category:</strong> ${recipe.category}</p>
-        <p><strong>Time:</strong> ${recipe.time}</p>
-        <p>${recipe.description}</p>
+        <img src="images/${recipe.image}"
+            alt="${recipe.name}"
+            class="modal-image">
+
+        <div class="recipe-body">
+
+            <h2>${recipe.name}</h2>
+
+            <div class="recipe-meta">
+                <span>🍽 ${recipe.category}</span>
+                <span>⏱ ${recipe.time}</span>
+                <span>⭐ ${recipe.difficulty}</span>
+            </div>
+
+            <p class="recipe-description">
+                ${recipe.description}
+            </p>
+
+            <h3>Ingredients</h3>
+            <ul class="ingredients-list">
+                ${ingredients}
+            </ul>
+
+            <h3>Instructions</h3>
+            <ol class="instruction-list">
+                ${instructions}
+            </ol>
+
+            ${recommendations}
+
+        </div>
     `;
 
     modal.showModal();

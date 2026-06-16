@@ -600,7 +600,7 @@ legend {
    MODAL
 ========================================== */
 
-dialog {
+/* dialog {
 
     width: min(90%, 700px);
 
@@ -634,6 +634,171 @@ dialog::backdrop {
     border-radius: 6px;
 
     cursor: pointer;
+} */
+
+
+/* ===========================
+   Recipe Modal
+=========================== */
+
+/* ===========================
+   Recipe Modal
+=========================== */
+
+dialog {
+    width: min(90%, 750px);
+    max-width: 750px;
+    max-height: 90vh;
+
+    padding: 0;
+    border: none;
+    border-radius: 18px;
+
+    overflow-y: auto;
+
+    margin: auto;
+
+    background: #fff;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,.3);
+
+    animation: modalOpen .3s ease;
+}
+
+dialog::backdrop{
+    background: rgba(0,0,0,.65);
+    backdrop-filter: blur(5px);
+}
+
+dialog h1, dialog h2, dialog h3 {
+    text-align: center;
+}
+
+#modal-content {
+    padding: 0 0 2rem;
+    background: #fff;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Hero Image */
+
+.modal-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Recipe Title */
+
+#modal-content h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin: 1.5rem 2rem .5rem;
+}
+
+/* Meta Tags */
+
+.recipe-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin: 0 2rem 1.5rem;
+}
+
+.recipe-meta span {
+    background: var(--accent2);
+    color: var(--primary);
+    padding: .45rem .9rem;
+    border-radius: 50px;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+/* Description */
+
+.recipe-description {
+    margin: 0 2rem 2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Section Headings */
+
+#modal-content h3 {
+    margin: 1.5rem 2rem .8rem;
+    color: var(--primary);
+    border-left: 5px solid var(--secondary);
+    padding-left: .8rem;
+}
+
+/* Lists */
+
+.ingredients-list,
+.instruction-list,
+.recommended-list {
+    margin: 0 2rem 1.8rem;
+    padding-left: 1.5rem;
+}
+
+.ingredients-list li,
+.instruction-list li,
+.recommended-list li {
+    margin-bottom: .75rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Alternate row effect */
+
+.ingredients-list li:nth-child(odd),
+.instruction-list li:nth-child(odd),
+.recommended-list li:nth-child(odd) {
+    background: #f8f8f8;
+    padding: .5rem .8rem;
+    border-radius: 8px;
+}
+
+/* Close Button */
+
+#close-modal{
+    position:fixed;
+    top:20px;
+    right:20px;
+
+    width:42px;
+    height:42px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#fff;
+    cursor:pointer;
+
+    font-size:1.5rem;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+    z-index:1000;
+}
+
+/* Animation */
+
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+.recipe-body{
+    padding: 0 2rem 2rem;
 }
 
 
