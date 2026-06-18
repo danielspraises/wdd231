@@ -346,3 +346,31 @@
     }
     
 }
+
+
+/* =========================
+   VIDEO SECTION
+========================= */
+
+@media screen and (min-width: 768px) {
+
+    .video-section {
+        padding: 3rem 2rem;
+    }
+
+    .video-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .video video {
+        max-width: 800px;
+        border-radius: 16px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .video video:hover {
+        /* transform: scale(1.02); */
+        box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+    }
+}
