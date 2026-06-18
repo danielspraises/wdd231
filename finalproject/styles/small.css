@@ -68,6 +68,7 @@ h3 {
     line-height: 1.2;
 }
 
+h1,
 h2 {
 
     margin-bottom: 1rem;
@@ -307,6 +308,7 @@ main {
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 
@@ -371,153 +373,6 @@ main {
 }
 
 
-/* ===================================
-   SUBMIT RECIPE PAGE
-=================================== */
-
-.submit-page {
-    padding: 2rem 1rem;
-}
-
-.form-wrapper {
-    background: var(--card);
-    border-radius: 20px;
-    padding: 1.5rem;
-    box-shadow: var(--shadow);
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.form-wrapper h1 {
-    font-family: var(--font-heading);
-    color: var(--primary);
-    margin-bottom: 0.5rem;
-    text-align: center;
-}
-
-.form-wrapper .intro {
-    text-align: center;
-    color: var(--muted);
-    margin-bottom: 2rem;
-}
-
-.recipe-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-/* LABELS */
-
-.recipe-form label {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    font-weight: 600;
-    color: var(--text);
-}
-
-/* INPUTS */
-
-.recipe-form input,
-.recipe-form textarea,
-.recipe-form select {
-    width: 100%;
-    padding: 0.9rem 1rem;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    font-size: 1rem;
-    font-family: inherit;
-    background: #fff;
-    transition: 0.3s ease;
-}
-
-.recipe-form input:focus,
-.recipe-form textarea:focus,
-.recipe-form select:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 4px rgba(117, 7, 12, 0.12);
-}
-
-.recipe-form textarea {
-    resize: vertical;
-    min-height: 140px;
-}
-
-/* PLACEHOLDERS */
-
-.recipe-form ::placeholder {
-    color: #9ca3af;
-}
-
-/* FORM GRID */
-
-.form-grid {
-    display: grid;
-    gap: 1rem;
-}
-
-/* SUBMIT BUTTON */
-
-.submit-btn {
-    border: none;
-    background: var(--primary);
-    color: white;
-    padding: 1rem;
-    border-radius: 14px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1rem;
-    transition: 0.3s ease;
-}
-
-.submit-btn:hover {
-    background: #560408;
-    transform: translateY(-2px);
-}
-
-/* FIELDSET */
-
-fieldset {
-    border: 1px solid #e5e7eb;
-    border-radius: 16px;
-    padding: 1.2rem;
-}
-
-legend {
-    padding: 0 0.5rem;
-    color: var(--primary);
-    font-weight: 700;
-}
-
-/* SUCCESS CARD */
-
-.success-card {
-    background: white;
-    border-radius: 20px;
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-    box-shadow: var(--shadow);
-}
-
-.success-card h1 {
-    color: var(--primary);
-    margin-bottom: 1rem;
-}
-
-.submitted-data {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.submitted-data p {
-    background: var(--accent2);
-    padding: 1rem;
-    border-radius: 12px;
-}
 
 /* ==========================================
    RECIPE GRID
@@ -596,50 +451,7 @@ legend {
     box-shadow: var(--shadow);
 }
 
-/* ==========================================
-   MODAL
-========================================== */
 
-/* dialog {
-
-    width: min(90%, 700px);
-
-    border: none;
-
-    border-radius: 16px;
-
-    padding: 2rem;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-dialog::backdrop {
-
-    background: rgba(0,0,0,.6);
-}
-
-.close-modal {
-
-    float: right;
-
-    border: none;
-
-    background: var(--primary);
-
-    color: white;
-
-    padding: .5rem .8rem;
-
-    border-radius: 6px;
-
-    cursor: pointer;
-} */
-
-
-/* ===========================
-   Recipe Modal
-=========================== */
 
 /* ===========================
    Recipe Modal
